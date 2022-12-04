@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.pizza {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  font-size: 5rem;
+  color: brown;
+  box-shadow: 0 0 20px rgb(94, 84, 84);
+  border-radius: 20px;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.pizza-border {
+  transform: translateX(45%);
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  background-color: rgb(215, 160, 92);
+  box-shadow: 0 10px 50px rgb(34, 26, 26);
+}
+
+.pizza-center {
+  margin-left: 24px;
+  transform: translateY(3.5%);
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  background-color: rgb(161, 50, 25);
+}
+
+.pomidor {
+  transition: 1s;
+  width: 100px;
+  height: 100px;
+  transform: translateX(500px);
+}
+.pomidor img {
+  border-radius: 50%;
+  border: 4px solid rgba(236, 105, 105, 0.878);
+}
+.pomidor .img1 {
+  position: absolute;
+  top: 30px;
+  right: -10px;
+}
+.pomidor .img2 {
+  position: absolute;
+  top: 170%;
+  right: 120%;
+}
+.pomidor .img3 {
+  position: absolute;
+  top: 175%;
+  right: 310%;
+}
+.pomidor .img4 {
+  position: absolute;
+  top: 40%;
+  right: 450%;
+}
+.pomidor .img5 {
+  position: absolute;
+  top: -295%;
+  right: 120%;
+}
+.pomidor .img6 {
+  position: absolute;
+  top: -155%;
+  right: 455%;
+}
+.pomidor .img7 {
+  position: absolute;
+  top: -295%;
+  right: 315%;
+}
+.pomidor .img8 {
+  position: absolute;
+  top: -150%;
+  right: -12%;
+}
+
+.kolbasa {
+  transition: 1s;
+}
+.kolbasa img {
+  border-radius: 50%;
+  border: 2px solid rgba(238, 101, 172, 0.637);
+}
+.kolbasa .kolba1 {
+  position: absolute;
+  top: 33%;
+  right: 65%;
+}
+.kolbasa .kolba2 {
+  position: absolute;
+  top: 20%;
+  right: 51%;
+}
+.kolbasa .kolba3 {
+  position: absolute;
+  top: 20%;
+  right: 32%;
+}
+.kolbasa .kolba4 {
+  position: absolute;
+  top: 34%;
+  right: 20%;
+}
+.kolbasa .kolba5 {
+  position: absolute;
+  top: 52%;
+  right: 20%;
+}
+.kolbasa .kolba6 {
+  position: absolute;
+  top: 66%;
+  right: 32%;
+}
+.kolbasa .kolba7 {
+  position: absolute;
+  top: 66%;
+  right: 51.5%;
+}
+.kolbasa .kolba9 {
+  position: absolute;
+  top: 52%;
+  right: 65%;
+}
+
+.bodring .bod1 {
+  position: absolute;
+  top: 28%;
+  left: 37%;
+}
+.bodring .bod2 {
+  position: absolute;
+  top: 28%;
+  left: 49%;
+}
+.bodring .bod3 {
+  position: absolute;
+  top: 37%;
+  left: 58%;
+}
+.bodring .bod4 {
+  position: absolute;
+  top: 49.5%;
+  left: 58%;
+}
+.bodring .bod5 {
+  position: absolute;
+  top: 58%;
+  left: 49%;
+}
+.bodring .bod6 {
+  position: absolute;
+  top: 58%;
+  left: 36.5%;
+}
+.bodring .bod7 {
+  position: absolute;
+  top: 49%;
+  left: 28%;
+}
+.bodring .bod8 {
+  position: absolute;
+  top: 37%;
+  left: 28%;
+}
+
+.qoziqorin .qozi1 {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  transform: rotate(-45deg);
+}
+.qoziqorin .qozi2 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: rotate(15deg);
+}
+.qoziqorin .qozi3 {
+  position: absolute;
+  top: 25%;
+  left: 70%;
+  transform: rotate(45deg);
+}
+.qoziqorin .qozi4 {
+  position: absolute;
+  top: 49%;
+  left: 70%;
+  transform: rotate(90deg);
+}
+.qoziqorin .qozi5 {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  transform: rotate(135deg);
+}
+.qoziqorin .qozi6 {
+  position: absolute;
+  top: 72%;
+  left: 35%;
+  transform: rotate(180deg);
+}
+.qoziqorin .qozi7 {
+  position: absolute;
+  top: 59%;
+  left: 16%;
+  transform: rotate(210deg);
+}
+.qoziqorin .qozi8 {
+  position: absolute;
+  top: 35%;
+  left: 16%;
+  transform: rotate(290deg);
+}
+
+.pizza1 {
+  width: 5px;
+  height: 650px;
+  background-color: antiquewhite;
+  transform: translateX(325px);
+  border-radius: 5px;
+}
+
+.pizza2 {
+  width: 650px;
+  height: 5px;
+  background-color: antiquewhite;
+  transform: translateY(-323px);
+  border-radius: 5px;
+}
+
+.pizza3 {
+  width: 650px;
+  height: 5px;
+  background-color: antiquewhite;
+  margin-top: -330px;
+  transform: rotate(45deg);
+  border-radius: 5px;
+}
+
+.pizza4 {
+  width: 650px;
+  height: 5px;
+  background-color: antiquewhite;
+  transform: rotate(135deg);
+  border-radius: 5px;
+}
+
+.sub {
+  transform: translateX(500px);
+  margin: 5rem 0;
+}
+
+form {
+  box-shadow: 0 0 20px rgb(40, 25, 25);
+  width: 205px;
+  background-color: rgba(128, 128, 128, 0.155);
+  border-radius: 20px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(450px);
+  row-gap: 2rem;
+}
+form .label1 {
+  font-size: 2rem;
+  color: red;
+}
+form .label2 {
+  font-size: 2rem;
+  color: rgba(238, 101, 172, 0.953);
+}
+form .label3 {
+  font-size: 2rem;
+  color: rgb(40, 216, 158);
+}
+form .label4 {
+  font-size: 2rem;
+  color: rgb(170, 97, 238);
+}
+
+.ummumiy {
+  line-height: 50px;
+  box-shadow: 0 0 20px grey;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.122);
+  position: absolute;
+  top: 65%;
+  right: 1%;
+}
+.ummumiy .narx1 {
+  color: red;
+}
+.ummumiy .narx2 {
+  color: rgba(238, 101, 172, 0.953);
+}
+.ummumiy .narx3 {
+  color: rgb(40, 216, 158);
+}
+.ummumiy .narx4 {
+  color: rgb(170, 97, 238);
+}
+
+.jami {
+  position: absolute;
+  top: 120%;
+  box-shadow: 0 0 20px grey;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  background-color: rgba(128, 128, 128, 0.155);
+  padding-bottom: 2rem;
+  right: 0;
+  color: blue;
+}/*# sourceMappingURL=main.css.map */
