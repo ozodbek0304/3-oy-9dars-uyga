@@ -12,45 +12,77 @@ let pomidor = document.querySelector(".pomidor"),
 
 pomidor.style.display = "none";
 
-input.addEventListener("click", function () {
-  pomidor.style.display= "block"
+input.addEventListener("click", function (e) {
+  if (e.target.checked) {
+    pomidor.style.display = "block";
+    
   summa.textContent++;
   summa.textContent++;
   summa.textContent++;
-
+  } else {
+    pomidor.style.display = "none";
+    
+  summa.textContent--;
+  summa.textContent--;
+  summa.textContent--;
+    
+  }
+  
 });
 
 kolbasa.style.display= "none";
   
-input1.addEventListener("click", function () {
-  kolbasa.style.display = "block"
+input1.addEventListener("click", function (e) {
+ if (e.target.checked){
+  kolbasa.style.display = "block";
   summa.textContent++;
   summa.textContent++;
   summa.textContent++;
   summa.textContent++;
-
+  }
+ else {
+  kolbasa.style.display = "none";
+   summa.textContent--;
+   summa.textContent--;
+   summa.textContent--;
+   summa.textContent--;
+  }
   
   
 })
 
 bodring.style.display = "none";
 
-input2.addEventListener("click", function () {
-  bodring.style.display = "block";
-  summa.textContent++;
-  summa.textContent++;
-
+input2.addEventListener("click", function (e) {
+  if (e.target.checked) {
+    bodring.style.display = "block";
+    summa.textContent++;
+    summa.textContent++;
+  } else {
+    bodring.style.display = "none";
+    summa.textContent--;
+    summa.textContent--;
+  }
 
 });
 qoziqorin.style.display = "none";
 
-input3.addEventListener("click", function () {
-  qoziqorin.style.display = "block";
-  summa.textContent++;
-  summa.textContent++;
-  summa.textContent++;
-  summa.textContent++;
-  summa.textContent++;
+input3.addEventListener("click", function (e) {
+  if (e.target.checked) {
+    qoziqorin.style.display = "block";
+    summa.textContent++;
+    summa.textContent++;
+    summa.textContent++;
+    summa.textContent++;
+    summa.textContent++;
+  } else {
+    qoziqorin.style.display = "none";
+    summa.textContent--;
+    summa.textContent--;
+    summa.textContent--;
+    summa.textContent--;
+    summa.textContent--;
+  }
 
 
 });
