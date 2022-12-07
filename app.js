@@ -8,23 +8,19 @@ let pomidor = document.querySelector(".pomidor"),
   bodring = document.querySelector(".bodring"),
   qoziqorin = document.querySelector(".qoziqorin"),
   summa = document.querySelector(".summa");
-  
+  total =0;  
 
 pomidor.style.display = "none";
 
 input.addEventListener("click", function (e) {
   if (e.target.checked) {
     pomidor.style.display = "block";
-    
-  summa.textContent++;
-  summa.textContent++;
-  summa.textContent++;
+    total +=15000;
+    summa.textContent = `${total}`;
   } else {
     pomidor.style.display = "none";
-    
-  summa.textContent--;
-  summa.textContent--;
-  summa.textContent--;
+    total -= 15000;
+    summa.textContent = `${total}`;
     
   }
   
@@ -33,19 +29,15 @@ input.addEventListener("click", function (e) {
 kolbasa.style.display= "none";
   
 input1.addEventListener("click", function (e) {
- if (e.target.checked){
-  kolbasa.style.display = "block";
-  summa.textContent++;
-  summa.textContent++;
-  summa.textContent++;
-  summa.textContent++;
+  if (e.target.checked){
+    kolbasa.style.display = "block";
+    total +=22000;
+    summa.textContent = `${total}`;
   }
  else {
-  kolbasa.style.display = "none";
-   summa.textContent--;
-   summa.textContent--;
-   summa.textContent--;
-   summa.textContent--;
+    kolbasa.style.display = "none";
+     total -=22000;
+     summa.textContent = `${total}`;
   }
   
   
@@ -56,12 +48,13 @@ bodring.style.display = "none";
 input2.addEventListener("click", function (e) {
   if (e.target.checked) {
     bodring.style.display = "block";
-    summa.textContent++;
-    summa.textContent++;
+    total +=10000;
+    summa.textContent = `${total}`;
   } else {
     bodring.style.display = "none";
-    summa.textContent--;
-    summa.textContent--;
+    total -=10000;
+    summa.textContent = `${total}`;
+  
   }
 
 });
@@ -70,18 +63,14 @@ qoziqorin.style.display = "none";
 input3.addEventListener("click", function (e) {
   if (e.target.checked) {
     qoziqorin.style.display = "block";
-    summa.textContent++;
-    summa.textContent++;
-    summa.textContent++;
-    summa.textContent++;
-    summa.textContent++;
+    total +=23000;
+    summa.textContent = `${total}`;
+   
   } else {
     qoziqorin.style.display = "none";
-    summa.textContent--;
-    summa.textContent--;
-    summa.textContent--;
-    summa.textContent--;
-    summa.textContent--;
+    total -= 23000;
+    summa.textContent = `${total}`;
+   
   }
 
 
